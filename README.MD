@@ -12,7 +12,7 @@ This is a sample project to demonstrate how to include images in a README file.
 
 Basic flow of Operations:
 
-![operations](images/operations_flow.png)
+![operations](images/operation_flow.png)
 
 ## Installation
 
