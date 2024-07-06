@@ -12,7 +12,7 @@ This is a sample project to demonstrate how to include images in a README file.
 
 Basic flow of Operations:
 
-![operations](https://drive.google.com/file/d/18wexlMVerPZ0SwJ957bHNlBuH7GGulYK/view?usp=drive_link)
+![operations](images/operations_flow.png)
 
 ## Installation
 
