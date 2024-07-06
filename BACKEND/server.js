@@ -28,6 +28,10 @@ connection.once("open", () => {
     console.log("Successfully connected to MongoDB !");
 });
 
+//student route
+const studentRouter = require("./routes/students.js");
+app.use("/student", studentRouter);
+
 app.listen(PORT, () => {
     console.log(`Server is up and running on port: ${PORT}`);
 });
