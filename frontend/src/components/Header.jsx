@@ -1,9 +1,12 @@
+import {Link} from 'react-router-dom'
+
 const Header = () => {
+    
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand text-rose-700" href="#">Navbar</a>
-                <a className="p-2 bg-rose-400 border text-white rounded-lg" href="/add">Add Student</a>
+                <a className="navbar-brand text-rose-700" href="/">Home</a>
+                <a className="p-2 bg-blue-500 border text-white rounded-lg" href="/add">Add Student</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
